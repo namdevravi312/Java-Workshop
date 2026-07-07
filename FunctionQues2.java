@@ -1,3 +1,4 @@
+
 public class FunctionQues2 {
 	static int m1(int y,int z) { 
 		System.out.println("Hello");

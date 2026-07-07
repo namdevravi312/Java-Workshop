@@ -1,19 +1,13 @@
-
 public class FunctionEx1 {
-	static void show() {
-		
-	}
-	static void kuchbhi() {
-		System.out.println("hello yoyo");
-		System.out.println("hii gogo");
+	static void add() {
+		int a=10,b=20;
+		int r=a+b;
+		System.out.println("Sum: "+r);
 	}
 	public static void main(String[] args) {
-		show();
-		kuchbhi();
-		kuchbhi();
-		show();
-		
+		add();
+		add();
+		add();
+		//add(5,7);//error
 	}
-	
-	
 }
